@@ -1,3 +1,2 @@
-jQuery(function(){
-  alert("yay!");
-});
+// ADD YOUR JS HERE
+console.log('loaded');
