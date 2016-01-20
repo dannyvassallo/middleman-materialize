@@ -17,10 +17,17 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+# Set Font Awesome Directory
+set :fonts_dir,  'fonts-folder'
 
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  set :debug_assets, true
+  activate :minify_css
 end
 
 ###
@@ -37,8 +44,9 @@ end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
-
+  activate :minify_css
+  # Minify HTML on build
+  activate :minify_html
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 end

@@ -11,10 +11,12 @@
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
     <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
   </head>
 
   <body class="<%= page_classes %>">
+    <!-- CONTENT SHOWS HERE -->
     <%= yield %>
+
+    <%= javascript_include_tag :all %>
   </body>
 </html>
