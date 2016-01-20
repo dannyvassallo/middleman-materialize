@@ -22,12 +22,12 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 # Set Font Awesome Directory
 set :fonts_dir,  'fonts-folder'
-
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
   set :debug_assets, true
   activate :minify_css
+  activate :minify_html
 end
 
 ###

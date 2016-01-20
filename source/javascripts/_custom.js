@@ -1,1 +1,3 @@
-alert("yay!");
+jQuery(function(){
+  alert("yay!");
+});
