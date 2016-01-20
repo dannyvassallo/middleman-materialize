@@ -84,7 +84,7 @@ end
 ```
 
 ####Deploy
-* This step requires a heroku account *
+This step requires a heroku account
 
 Create an app (Run Once)
 ```shell
