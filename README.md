@@ -17,6 +17,8 @@ There is also a partial/template for meta info on most social networks.
 * SASS
 * jQuery
 * Font Awesome
+* Minify HTML gem
+* GA gem
 
 ####Getting Started
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
@@ -47,6 +49,40 @@ If you find yourself curious as to what directory you are in use the following i
 pwd
 ```
 It should turn up "middleman4-boiler"
+
+####Analytics Setup
+
+Add this setup with your id to the `config.rb` file.
+
+```ruby
+#config.rb
+
+activate :google_analytics do |ga|
+  # Property ID (default = nil)
+  ga.tracking_id = 'UA-XXXXXXX-X'
+
+  # Removing the last octet of the IP address (default = false)
+  ga.anonymize_ip = false
+
+  # Tracking across a domain and its subdomains (default = nil)
+  ga.domain_name = 'example.com'
+
+  # Tracking across multiple domains and subdomains (default = false)
+  ga.allow_linker = false
+
+  # Tracking Code Debugger (default = false)
+  ga.debug = false
+
+  # Tracking in development environment (default = true)
+  ga.development = true
+
+  # Compress the JavaScript code (default = false)
+  ga.minify = false
+
+  # Output style - :html includes <script> tag (default = :html)
+  ga.output = :js
+end
+```
 
 ####Deploy
 * This step requires a heroku account *
