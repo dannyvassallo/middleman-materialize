@@ -1,0 +1,27 @@
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Type">
+
+<!-- Place this data between the <head> tags of your website -->
+<title><%= current_page.data.title || "The Middleman" %></title>
+<meta name="description" content="The description" />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="The title">
+<meta itemprop="description" content="The description">
+<meta itemprop="image" content="<%= lorem.image('600x400') %>">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@twitterhandle">
+<meta name="twitter:title" content="The title">
+<meta name="twitter:description" content="The description">
+<meta name="twitter:creator" content="@twitterhandle">
+<meta name="twitter:image" content="<%= lorem.image('600x400') %>">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="The title" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com" />
+<meta property="og:image" content="<%= lorem.image('600x400') %>" />
+<meta property="og:description" content="The description" />
+<meta property="og:site_name" content="Site name" />
