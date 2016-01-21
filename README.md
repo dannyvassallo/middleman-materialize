@@ -1,3 +1,4 @@
+![Middleman Logo](https://s3.amazonaws.com/middlemantemplate/middlemanheader.png "Middleman Logo")
 #Middleman 4 Boilerplate
 
 *Oh It's so f@!king nice.*
