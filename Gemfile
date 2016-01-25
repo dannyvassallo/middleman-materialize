@@ -15,7 +15,7 @@ gem 'middleman-compass', '>= 4.0.0'
 gem "middleman-sprockets", "~> 4.0.0.rc"
 # Additional Gems
 gem 'font-awesome-middleman'
-gem 'bootstrap-sass'
+gem 'materialize-sass'
 gem 'jquery-middleman'
 gem 'middleman-minify-html'
 gem 'middleman-google-analytics', '~> 2.0'
