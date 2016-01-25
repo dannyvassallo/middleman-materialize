@@ -19,21 +19,21 @@ There is also a partial/template for meta info on most social networks.
 * Font Awesome
 * Minify HTML gem
 * GA gem
-* (MaterializeCSS)[http://materializecss.com/] Sass
+* [MaterializeCSS](http://materializecss.com/) Sass
 
 ####Getting Started
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
 ```shell
-git clone https://github.com/dannyvassallo/middleman4-boiler.git
-cd middleman4-boiler
+git clone https://github.com/dannyvassallo/middleman-materialize.git
+cd middleman-materialize
 ```
 
-From the "middleman4-boiler" directory, install the gems by running the following:
+From the "middleman-materialize" directory, install the gems by running the following:
 ```shell
 bundle install
 ```
 
-To fire up the server while in the "middleman4-boiler" directory use this command:
+To fire up the server while in the "middleman-materialize" directory use this command:
 ```shell
 middleman s
 ```
@@ -49,7 +49,7 @@ If you find yourself curious as to what directory you are in use the following i
 ```shell
 pwd
 ```
-It should turn up "middleman4-boiler"
+It should turn up "middleman-materialize"
 
 ####Analytics Setup
 
