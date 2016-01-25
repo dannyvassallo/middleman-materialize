@@ -1,4 +1,4 @@
 //= require jquery
-//= require bootstrap
-//= require_custom
-//= require_tree .
+//= require materialize-sprockets
+//= require _init-materialize
+//= require _custom

@@ -1,5 +1,5 @@
-![Middleman Logo](https://s3.amazonaws.com/middlemantemplate/middlemanheader.png "Middleman Logo")
-#Middleman 4 Boilerplate
+![Middleman Logo](https://s3.amazonaws.com/middlemantemplate/materialize.png "Middleman Logo")
+#Middleman 4 / Materialize CSS Boilerplate
 
 *Oh It's so f@!king nice.*
 
@@ -19,6 +19,7 @@ There is also a partial/template for meta info on most social networks.
 * Font Awesome
 * Minify HTML gem
 * GA gem
+* (MaterializeCSS)[http://materializecss.com/] Sass
 
 ####Getting Started
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:

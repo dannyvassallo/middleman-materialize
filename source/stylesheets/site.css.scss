@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import "normalize";
-@import "bootstrap-sprockets";
-@import "bootstrap";
+// BEGIN MATERIALIZE
+@import "materialize/components/color";
+// You can customize the theme colors here:
+$primary-color: color("blue", "lighten-2") !default;
+@import 'materialize';
+// END MATERIALIZE
 @import "font-awesome";
+@import "stickyfooter";
 @import "custom";
