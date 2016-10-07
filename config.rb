@@ -1,4 +1,4 @@
-require 'font-awesome-sass'
+activate :sprockets
 ###
 # Page options, layouts, aliases and proxies
 ###
